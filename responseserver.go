@@ -1,13 +1,12 @@
 package main
 
 import (
-	"./response_generator"
 	"fmt"
 	"net/http"
 )
 
 func look(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "%s", response_generator.GetResponse())
+	fmt.Fprintf(w, "%s", GetResponse())
 }
 
 func main() {
