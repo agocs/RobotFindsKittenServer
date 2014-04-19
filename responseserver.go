@@ -10,6 +10,6 @@ func look(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
-	http.HandleFunc("/look/", look)
+	http.HandleFunc("/non-kitten-item/", look)
 	http.ListenAndServe(":8080", nil)
 }
