@@ -1,7 +1,7 @@
 RobotFindsKittenServer
 ======================
 
-A random RobotFindsKitten non-kitten-item generator written in Go. Provides a REST endpoint for GETting non-kitten-items. Over 700 non-kitten-items implemented!
+A random RobotFindsKitten non-kitten-item generator written in Go. Provides a REST endpoint for GETting non-kitten-items. ~~Over~~ 700 non-kitten-items implemented!
 
 See the live demo! http://agocs.org/robotfindskitten/non-kitten-item/
 
