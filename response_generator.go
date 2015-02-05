@@ -710,7 +710,6 @@ func GetResponse() string {
 		"Your pal Floyd is here and wants to play Hucka-Bucka-Beanstalk.",
 		"Your permanent record."}
 
-	rand.Seed(time.Now().Unix())
 	return nonKittenItems[rand.Intn(len(nonKittenItems))]
 
 }

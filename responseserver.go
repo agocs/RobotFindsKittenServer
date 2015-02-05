@@ -10,6 +10,7 @@ func look(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
+	rand.Seed(time.Now().Unix())
 	http.HandleFunc("/non-kitten-item/", look)
 	http.ListenAndServe(":8080", nil)
 }
