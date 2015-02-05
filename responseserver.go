@@ -2,7 +2,9 @@ package main
 
 import (
 	"fmt"
+	"math/rand"
 	"net/http"
+	"time"
 )
 
 func look(w http.ResponseWriter, r *http.Request) {
